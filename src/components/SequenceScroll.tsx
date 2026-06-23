@@ -35,7 +35,7 @@ export default function SequenceScroll() {
       const loadedImages: HTMLImageElement[] = new Array(FRAME_COUNT);
       let loadedCount = 0;
 
-      const CACHE_NAME = "sequence-scroll-cache-v1";
+      const CACHE_NAME = "sequence-scroll-cache-v3";
       let cache: Cache | null = null;
       try {
         if (typeof window !== "undefined" && "caches" in window) {
